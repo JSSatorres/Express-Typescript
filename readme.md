@@ -1,7 +1,25 @@
 ## TypeScript - Express
 
-1 Create the tsconfig.json
+1 Create the tsconfig.json and edit
 
 ```TypeScript
 npm run tsc -- --init
 ```
+
+```TypeScript
+"outDir": "./build",                /* folder to copile javascript*/
+"noUnusedLocals": true,             /* Enable error reporting when local variables aren't read. */
+"noUnusedParameters": true,         /* Raise an error when a function parameter isn't read. */
+"noImplicitReturns": true,          /* Enable error reporting for codepaths that do not explicitly return in a function. */
+"esModuleInterop": true,            /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+```
+
+```TypeScript
+npm run tsc -- --init
+```
+
+```TypeScript
+npm run tsc -- --init
+```
+
+"outDir": "./buid",
