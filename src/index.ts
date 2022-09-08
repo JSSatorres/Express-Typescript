@@ -1,15 +1,4 @@
-import express from "express"
+import app from './server'
+import { PORT } from './config/config'
 
-const app = express()
-app.use(express.json())
-
-const PORT = 4000
-
-app.get("/", ((_req,res)=>{
-    console.log("ok");
-    res.status(200).send("aaa")    
-}))
-
-app.listen(PORT,()=>{
-    console.log(`all ok in ${PORT}`);    
-})
+app.listen(PORT, () => console.log(`server is running on ${PORT}`))

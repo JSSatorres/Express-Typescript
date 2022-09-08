@@ -14,6 +14,10 @@ npm run tsc -- --init
 "esModuleInterop": true,            /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
 ```
 
+install ts-node-dev to have a tsc and nodemon in one `npm i -D ts-node-dev`
+
+add the script to run ts-node-dev `"dev": "ts-node-dev src/index.ts"`
+
 ```TypeScript
 npm run tsc -- --init
 ```
