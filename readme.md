@@ -1,4 +1,5 @@
-## TypeScript - Express
+## TypeScript - Express - Basic without DB
+
 
 1 Create the tsconfig.json and edit
 
