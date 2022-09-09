@@ -1,4 +1,5 @@
-## TypeScript - Express
+## TypeScript - Express - Basic without DB
+
 
 **Curse fullstackopen typescript - express**
 
