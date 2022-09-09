@@ -16,7 +16,7 @@ export interface SpecialDiaryEntry extends DiaryEntry{
 // El resultaado es el mismo con los dos siguientes
 
 // eliminamos los elementos del interface que nos interesan
-export type NonSensitiveInfoDiaryEntryOmit = Omit<DiaryEntry, 'comment'>
+// export type NonSensitiveInfoDiaryEntryOmit = Omit<DiaryEntry, 'comment'>
 
 // cogemos los elementos del interface que nos interesa
-export type NonSensitiveInfoDiaryEntryPick = Pick<DiaryEntry, 'id'|'date'|'weather'|'visibility'>
+export type NonSensitiveInfoDiaryEntry = Pick<DiaryEntry, 'id'|'date'|'weather'|'visibility'>

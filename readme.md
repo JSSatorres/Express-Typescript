@@ -1,6 +1,10 @@
 ## TypeScript - Express
 
-1 Create the tsconfig.json and edit
+**Curse fullstackopen typescript - express**
+
+[Fullstack part 9](https://fullstackopen.com/es/part9/escribiendo_la_aplicacion_express)
+
+Create the tsconfig.json and edit
 
 ```TypeScript
 npm run tsc -- --init
@@ -17,13 +21,3 @@ npm run tsc -- --init
 install ts-node-dev to have a tsc and nodemon in one `npm i -D ts-node-dev`
 
 add the script to run ts-node-dev `"dev": "ts-node-dev src/index.ts"`
-
-```TypeScript
-npm run tsc -- --init
-```
-
-```TypeScript
-npm run tsc -- --init
-```
-
-"outDir": "./buid",
